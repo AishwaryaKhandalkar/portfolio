@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+/* new */
+
+:root {
+  --main-green: #88dded;
+  --theme-dark-blue: #14223e; 
+  --theme-grey: #ccd6f6;
+  --theme-btn-nover-blue: #0b1426;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  background-color: var(--theme-dark-blue);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-white {
+  color: var(--theme-grey);
 }
 
-.App-header {
-  background-color: #282c34;
+.green {
+  color: var(--main-green);
+}
+
+header {
+  background-color: var(--theme-dark-blue);
+  z-index: 9;
+}
+
+.header-links li {
+  padding: 0 10px;
+  position: relative;
+}
+
+.header-links li a {
+  padding: 10px;
+  display: inline-block;
+}
+
+section {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding-top: 100px;
+}
+
+.container {
+  padding: 0 150px;
+}
+
+.home .name {
+  line-height: 6rem;
+
+}
+
+@media only screen and (max-width: 640px) {
+  .home .name {
+    line-height: 3rem;
+  }
+
+  .container {
+    padding: 0 70px;
+  }
+}
+
+
+.home .summary {
+ max-width: 450px;
+ margin: 25px 0 10px;
+}
+
+.potrait {
+  height: 29rem;
+}
+
+/*Exp */
+.tablist {
+  position: relative;
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.tablist button {
+  padding: 8px 20px;
+}
+
+.tablist button:hover {
+  background-color: var(--theme-btn-nover-blue);
+}
+
+button.active {
+  background-color: var(--theme-btn-nover-blue);
+}
+
+.skills li{
+  list-style-type: circle;
+}
+
+.skills li::marker {
+  color: var(--main-green);
+}
+
+.tabpanel {
+  position: relative;
+  width: 100%;
+}
+
+#experience {
+  max-width: 800px;
+}
+
+.job-experience ul {
+  margin: 20px 20px 0;
+}
+
+.job-experience li {
+  list-style-type: circle;
+}
+
+.job-experience li::marker {
+  color: var(--main-green);
+}
+
+.project-tech-list {
+  margin: 10px 0;
+}
+
+.project-tech-list li{
+  display: inline-block;
+  list-style-type: circle;
+}
+
+.project {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.project-screenshot {
+  opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-screenshot:hover {
+  opacity: 1;
+}
+
+.mail-button {
+  border: 2px solid var(--main-green);
+  color: var(--main-green);
+  padding: 10px 15px;
+  margin: 20px 0 0;
+  display: inline-block;
+}
+
+.link {
+  border-bottom: 1px solid var(--main-green);
+}
+
+.socials {
+  position: fixed;
+  left: 25px;
+  bottom: 0;
 }
