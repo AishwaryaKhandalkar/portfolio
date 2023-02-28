@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AishwaryaKhandalkar/portfolio.git/static/css/main.5ec98156.css",
+    "main.js": "/AishwaryaKhandalkar/portfolio.git/static/js/main.732a5b10.js",
+    "static/js/787.1ed0c42c.chunk.js": "/AishwaryaKhandalkar/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "static/media/aishwaryak.jpg": "/AishwaryaKhandalkar/portfolio.git/static/media/aishwaryak.467511e1b300811aa65a.jpg",
+    "static/media/cocktaildb.png": "/AishwaryaKhandalkar/portfolio.git/static/media/cocktaildb.4a033d3e3290fc4cb1e1.png",
+    "static/media/teambuilder.png": "/AishwaryaKhandalkar/portfolio.git/static/media/teambuilder.b51721e6e2ead702a13a.png",
+    "index.html": "/AishwaryaKhandalkar/portfolio.git/index.html",
+    "main.5ec98156.css.map": "/AishwaryaKhandalkar/portfolio.git/static/css/main.5ec98156.css.map",
+    "main.732a5b10.js.map": "/AishwaryaKhandalkar/portfolio.git/static/js/main.732a5b10.js.map",
+    "787.1ed0c42c.chunk.js.map": "/AishwaryaKhandalkar/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ec98156.css",
+    "static/js/main.732a5b10.js"
+  ]
+}
